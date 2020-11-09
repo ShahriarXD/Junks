@@ -18,3 +18,23 @@ else:
             a[x] = dict2[x]            
     print(a)
 
+
+    
+    
+    
+    
+d1 = {'a': 10, 'c':20, 'd':30, 'e':40}
+
+d2 = {'a': 10, 'b':20, 'c':30}
+
+d3 = {}
+
+for i, j in d1.items():
+
+    for x, y in d2.items():
+
+        if i == x:
+
+            d3[i]=(j+y)
+
+print(d3)    
